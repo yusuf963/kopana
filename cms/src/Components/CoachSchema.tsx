@@ -93,11 +93,17 @@ export const coachSchema = buildSchema<Coach>({
         },
         Previous_relatedClub: {
             title: "Pervious Club Related",
-            dataType: 'array'
+            dataType: 'array',
+            of: {
+                dataType: "string"
+            }
         },
         tags: {
             title: " Tag",
-            dataType: "array"
+            dataType: "array",
+            of: {
+                dataType: "string"
+            }
         },
         publisher: {
             title: "Publisher",
