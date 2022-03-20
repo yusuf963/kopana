@@ -17,12 +17,12 @@ import { playerSchema, localeSchema, coachSchema } from "./Components";
 
 // TODO: Replace with your config
 const firebaseConfig = {
-  apiKey: "AIzaSyDJaQC5qMPOmxspLwkQ66gcab4ufTs_JW0",
-  authDomain: "kopana-6dcad.firebaseapp.com",
-  projectId: "kopana-6dcad",
-  storageBucket: "kopana-6dcad.appspot.com",
-  messagingSenderId: "953286394986",
-  appId: "1:953286394986:web:147b4404d08ca1a2a0f613"
+  apiKey: "AIzaSyA07wrGQFtRPMM3ckBm_VLULEk9JTndM5c",
+  authDomain: "kopana-93ccb.firebaseapp.com",
+  projectId: "kopana-93ccb",
+  storageBucket: "kopana-93ccb.appspot.com",
+  messagingSenderId: "1045364054501",
+  appId: "1:1045364054501:web:93ed2810d0558f57c2f70c"
 };
 
 export default function App() {
